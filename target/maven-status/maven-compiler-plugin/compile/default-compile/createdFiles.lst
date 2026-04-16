@@ -1,0 +1,15 @@
+br/uninter/medalerta/model/UsuarioMedicamento.class
+br/uninter/medalerta/model/Usuario.class
+br/uninter/medalerta/model/UsuarioMedicamentoId.class
+br/uninter/medalerta/service/UsuarioMedicamentoService.class
+br/uninter/medalerta/MedAlertaApplication.class
+br/uninter/medalerta/model/StatusAlerta.class
+br/uninter/medalerta/service/MedicamentoService.class
+br/uninter/medalerta/repository/UsuarioRepository.class
+br/uninter/medalerta/repository/UsuarioMedicamentoRepository.class
+br/uninter/medalerta/repository/MedicamentoRepository.class
+br/uninter/medalerta/service/UsuarioService.class
+br/uninter/medalerta/model/Medicamento.class
+br/uninter/medalerta/model/QuantidadeTipo.class
+br/uninter/medalerta/model/ConfirmacaoConsumo.class
+br/uninter/medalerta/app/App.class

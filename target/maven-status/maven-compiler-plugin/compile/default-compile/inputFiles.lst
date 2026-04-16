@@ -1,0 +1,15 @@
+/app/src/main/java/br/uninter/medalerta/MedAlertaApplication.java
+/app/src/main/java/br/uninter/medalerta/app/App.java
+/app/src/main/java/br/uninter/medalerta/model/ConfirmacaoConsumo.java
+/app/src/main/java/br/uninter/medalerta/model/Medicamento.java
+/app/src/main/java/br/uninter/medalerta/model/QuantidadeTipo.java
+/app/src/main/java/br/uninter/medalerta/model/StatusAlerta.java
+/app/src/main/java/br/uninter/medalerta/model/Usuario.java
+/app/src/main/java/br/uninter/medalerta/model/UsuarioMedicamento.java
+/app/src/main/java/br/uninter/medalerta/model/UsuarioMedicamentoId.java
+/app/src/main/java/br/uninter/medalerta/repository/MedicamentoRepository.java
+/app/src/main/java/br/uninter/medalerta/repository/UsuarioMedicamentoRepository.java
+/app/src/main/java/br/uninter/medalerta/repository/UsuarioRepository.java
+/app/src/main/java/br/uninter/medalerta/service/MedicamentoService.java
+/app/src/main/java/br/uninter/medalerta/service/UsuarioMedicamentoService.java
+/app/src/main/java/br/uninter/medalerta/service/UsuarioService.java
