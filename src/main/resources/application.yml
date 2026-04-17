@@ -1,7 +1,8 @@
 spring:
-  application:
-    name: medalerta
   datasource:
+    url: jdbc:mysql://medalerta-mysql:3306/medalerta
+    username: medalerta_user
+    password: medalerta_pass
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
