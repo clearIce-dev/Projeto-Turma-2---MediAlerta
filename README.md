@@ -1,6 +1,6 @@
 # 💊 MedAlerta
 
-> Sistema de gerenciamento e acompanhamento de medicamentos desenvolvido em Java e Spring Boot, com persistência de dados em MySQL e ambiente containerizado com Docker.
+Sistema de gerenciamento e acompanhamento de medicamentos desenvolvido em Java e Spring Boot, com persistência de dados em MySQL e ambiente containerizado com Docker.
 
 ---
 
