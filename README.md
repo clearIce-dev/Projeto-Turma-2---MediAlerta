@@ -91,6 +91,29 @@ Projeto-Turma-2---MediAlerta/
 ```
 ## 🚀 Como executar o projeto
 
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/clearIce-dev/Projeto-Turma-2---MediAlerta.git
+cd Projeto-Turma-2---MediAlerta
+
+```
+
+### 2. Crie o arquivo .env
+
+Por questões de boas práticas, o arquivo .env não está no repositório.
+
+Na raiz do projeto, crie um arquivo chamado .env com o seguinte conteúdo.
+
+```bash
+MYSQL_ROOT_PASSWORD=root123
+MYSQL_DATABASE=medalerta
+MYSQL_USER=medalerta_user
+MYSQL_PASSWORD=medalerta_pass
+```
+
+### 3. Inicie a aplicação
+
 ```bash
 docker compose up -d
 docker compose attach app
