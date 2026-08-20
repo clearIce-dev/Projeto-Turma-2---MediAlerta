@@ -197,8 +197,8 @@ public class App implements CommandLineRunner {
 
     private void buscarMedicamentoPorId(Scanner sc) {
         Integer id = lerInteiro(sc, "ID do Medicamento: ");
-        Medicamento Medicamento = medicamentoService.buscarPorId(id);
-        System.out.println(Medicamento);
+        Medicamento medicamento = medicamentoService.buscarPorId(id);
+        System.out.println(medicamento);
     }
 
     private void atualizarMedicamento(Scanner sc) {
@@ -385,7 +385,7 @@ public class App implements CommandLineRunner {
     private QuantidadeTipo lerQuantidadeTipo(Scanner sc) {
         while (true) {
             System.out.print("Quantidade [unidade/ml]: ");
-            String valor = sc.nextLine().trim();
+            String valor = sc.nextLine().trim().toUpperCase();
             try {
                 return QuantidadeTipo.valueOf(valor);
             } catch (Exception e) {
@@ -397,7 +397,7 @@ public class App implements CommandLineRunner {
     private StatusAlerta lerStatusAlerta(Scanner sc) {
         while (true) {
             System.out.print("Status alerta [emitido/nao_emitido]: ");
-            String valor = sc.nextLine().trim();
+            String valor = sc.nextLine().trim().toUpperCase();
             try {
                 return StatusAlerta.valueOf(valor);
             } catch (Exception e) {
@@ -409,7 +409,7 @@ public class App implements CommandLineRunner {
     private ConfirmacaoConsumo lerConfirmacaoConsumo(Scanner sc) {
         while (true) {
             System.out.print("Confirmação consumo [sim/nao]: ");
-            String valor = sc.nextLine().trim();
+            String valor = sc.nextLine().trim().toUpperCase();
             try {
                 return ConfirmacaoConsumo.valueOf(valor);
             } catch (Exception e) {

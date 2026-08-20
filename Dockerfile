@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y \
 
 EXPOSE 8080
 
-CMD ["sleep", "infinity"]
+CMD ["mvn", "spring-boot:run"]
 
 
 # =========================

@@ -132,8 +132,6 @@ public class UsuarioMedicamento {
         return "UsuarioMedicamento{" +
                 "idUsuario=" + (id != null ? id.getIdUsuario() : null) +
                 ", idMedicamento=" + (id != null ? id.getIdMedicamento() : null) +
-                ", usuario=" + (usuario != null ? usuario.getNome() : null) +
-                ", medicamento=" + (medicamento != null ? medicamento.getNomeComercial() : null) +
                 ", horarioUso=" + horarioUso +
                 ", frequenciaUso='" + frequenciaUso + '\'' +
                 ", dosagem='" + dosagem + '\'' +

@@ -1,7 +1,3 @@
-ALTER DATABASE medalerta
-  CHARACTER SET = utf8mb4
-  COLLATE = utf8mb4_0900_ai_ci;
-
 use medalerta;
 
 create table Usuario (
@@ -23,7 +19,7 @@ create table Medicamento (
 	idMedicamento int auto_increment not null,
     nomeComercial varchar(100) not null,
     nomeGenerico varchar(100),
-    quantidade enum('unidade', 'ml'),
+    quantidade enum('UNIDADE', 'ML'),
     formaUso varchar(100),
     observacao varchar(200),
     primary key (idMedicamento)
@@ -36,9 +32,9 @@ create table UsuarioMedicamento (
     frequenciaUso varchar(50),
     dosagem varchar(50) not null,
     dataHorarioAlerta datetime not null,
-    statusAlerta enum('emitido', 'não emitido') not null,
+    statusAlerta enum('EMITIDO', 'NAO_EMITIDO') not null,
     dataHorarioConsumo datetime,
-    confirmacaoConsumo enum('sim', 'não') not null,
+    confirmacaoConsumo enum('SIM', 'NAO') not null,
     primary key (idUsuario, idMedicamento),
     foreign key (idUsuario) references Usuario (idUsuario),
     foreign key (idMedicamento) references Medicamento (idMedicamento)

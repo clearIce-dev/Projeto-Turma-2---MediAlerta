@@ -41,7 +41,7 @@ public class UsuarioMedicamentoService {
         Usuario usuario = usuarioRepository.findById(idUsuario)
                 .orElseThrow(() -> new RuntimeException("Usuário não encontrado: " + idUsuario));
 
-        Medicamento Medicamento = medicamentoRepository.findById(idMedicamento)
+        Medicamento medicamento = medicamentoRepository.findById(idMedicamento)
                 .orElseThrow(() -> new RuntimeException("Medicamento não encontrado: " + idMedicamento));
 
         UsuarioMedicamentoId id = new UsuarioMedicamentoId(idUsuario, idMedicamento);
@@ -53,7 +53,7 @@ public class UsuarioMedicamentoService {
         UsuarioMedicamento entidade = new UsuarioMedicamento();
         entidade.setId(id);
         entidade.setUsuario(usuario);
-        entidade.setMedicamento(Medicamento);
+        entidade.setMedicamento(medicamento);
         entidade.setHorarioUso(horarioUso);
         entidade.setFrequenciaUso(frequenciaUso);
         entidade.setDosagem(dosagem);
