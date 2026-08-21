@@ -1,192 +1,126 @@
-<!-- Área do Banner -->
-<div align="center" style="background-color: white; max-width: 100%;">
-  <img alt="BANNER com título: BOOTCAMP 1 - 2026" title="Banner_BOOTCAMP_1_2026" src=".github/img/Banner_BOOTCAMP_1_2026.png" width="100%" />
-</div>
+# 💊 MedAlerta
 
-<!-- Título e descrição -->
-<div align="center">
-  <h1>MedAlerta</h1>
-  <p><b>Projeto base para desenvolvimento de um sistema de gerenciamento de medicamentos, preparado com arquitetura em camadas, containers Docker e boas práticas de engenharia de software.</b></p>
-</div>
-
-<!-- Tecnologias -->
-<p align="center">
-  <a href="https://www.java.com/" title="Java">
-    <img src="https://github.com/get-icon/geticon/raw/master/icons/java.svg" alt="Java" height="21px">
-  </a>
-  +
-  <a href="https://spring.io/projects/spring-boot" title="Spring Boot">
-    <img src="https://img.icons8.com/color/48/spring-logo.png" alt="Spring Boot" height="21px">
-  </a>
-  +
-  <a href="https://www.mysql.com/" title="MySQL">
-    <img src="https://github.com/get-icon/geticon/raw/master/icons/mysql.svg" alt="MySQL" height="21px">
-  </a>
-  +
-  <a href="https://www.docker.com/" title="Docker">
-    <img src="https://github.com/get-icon/geticon/raw/master/icons/docker-icon.svg" alt="Docker" height="21px">
-  </a>
-  +
-  <a href="https://code.visualstudio.com/" title="VSCode">
-    <img src="https://github.com/get-icon/geticon/raw/master/icons/visual-studio-code.svg" alt="VSCode" height="21px">
-  </a>
-</p>
+Sistema de gerenciamento e acompanhamento de medicamentos desenvolvido em Java e Spring Boot, com persistência de dados em MySQL e ambiente containerizado com Docker.
 
 ---
 
-# 👥 Professores
+## 📌 Sobre o projeto
 
-| [<img src="https://avatars.githubusercontent.com/u/8054061?v=4" width="75px;"/>](https://github.com/nascimentoRodrigo) | [<img src="https://avatars3.githubusercontent.com/u/60905310?s=460&v=4" width="75px;"/>](https://github.com/guipatriota) | [<img src="https://media.licdn.com/dms/image/v2/C4D03AQEZ0ucDyC-I3Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1656806969197?e=1777507200&v=beta&t=s6pQJeDpx0wPD0s16Efp6SX4-CDDFdq9ucW1nEtoucY" width="75px;"/>](https://github.com/neusagrando) | [<img src="https://avatars.githubusercontent.com/u/5274908?v=4" width="75px;"/>](https://github.com/jadinhu) |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [Prof. Me. Rodrigo da Silva do Nascimento](https://github.com/nascimentoRodrigo) | [Prof. Me. Guilherme Patriota](https://github.com/guipatriota) | [Prof. PhD. Neusa Grando](https://github.com/neusagrando) | [Prof. Me. Jadson Almeida](https://github.com/jadinhu) |
+O **MedAlerta** é um sistema desenvolvido para auxiliar no gerenciamento de medicamentos, permitindo o cadastro de usuários, medicamentos e o vínculo entre eles.
 
----
-
-# 📌 Descrição
-
-Este repositório contém a **infraestrutura base e estrutura arquitetural do projeto MedAlerta**, desenvolvida para o Bootcamp de Engenharia de Software.
-
-O objetivo é preparar um ambiente profissional para desenvolvimento, incluindo:
-
-- Arquitetura em camadas
-- Containerização da aplicação
-- Banco de dados MySQL integrado
-- Configuração por variáveis de ambiente
-- Inicialização automática do banco
-- Base para CI/CD com GitHub Actions
-
-Esta base será utilizada nas aulas seguintes para implementação de:
-
-- CRUD
-- Integração com banco de dados
-- Regras de negócio
-- Autenticação e segurança
+O projeto foi desenvolvido com foco na aplicação prática de conceitos de desenvolvimento backend, persistência de dados, arquitetura em camadas e utilização de containers Docker.
 
 ---
 
-# 🏗️ Arquitetura
+## 🎓 Contexto acadêmico
 
-O projeto segue o padrão de **arquitetura em camadas**:
+O MedAlerta foi desenvolvido durante o **Bootcamp de Engenharia de Software da UNINTER**, realizado em 2026.
 
-Service → Repository → Banco de Dados
+O projeto fez parte das atividades práticas do bootcamp, nas quais foram apresentados conceitos e tecnologias utilizados no desenvolvimento de aplicações backend.
 
-- **Service**: regras de negócio  
-- **Repository (CRUD)**: acesso aos dados  
-- **Banco (MySQL)**: persistência  
-
-A aplicação poderá ser exposta via API (ex: REST), mas isso não é foco inicial.
+A equipe desenvolveu e evoluiu o sistema a partir da estrutura e dos conhecimentos apresentados durante o bootcamp.
 
 ---
 
-# 🧱 Infraestrutura Base
+## 👥 Equipe
 
-O projeto utiliza Docker para padronizar o ambiente.
+Projeto desenvolvido em equipe durante o Bootcamp de Engenharia de Software da UNINTER.
 
-## Containers
-
-- **app** → ambiente Java (desenvolvimento)
-- **db** → MySQL
-
-## Características
-
-- Comunicação entre containers via rede interna
-- Banco acessível externamente (Workbench)
-- Aplicação acessível via navegador
-- Ambiente reproduzível em qualquer máquina
+| Integrante | GitHub |
+|---|---|
+| Cesar Augusto | [@Cesarleitor](https://github.com/Cesarleitor) |
+| Mariana Alexandre | [@MarianaUY](https://github.com/MarianaUY) |
+| Cruz | [@clearlce-dev](https://github.com/clearIce-dev) |
+| Filipe Mariano Rocha | [@Filipe-glitch](https://github.com/Filipe-glitch) |
+| Higor Rodrigues dos Santos | [@Higor-dev-rs](https://github.com/Higor-dev-rs) |
 
 ---
 
-# ⚙️ Pré-requisitos
+## 👨‍🏫 Professores
 
-- Docker Desktop
-- VSCode
-- Extensão Dev Containers (recomendado)
+O projeto foi desenvolvido com orientação dos professores responsáveis pelo Bootcamp de Engenharia de Software da UNINTER:
+
+- [Prof. Me. Rodrigo da Silva do Nascimento](https://github.com/nascimentoRodrigo)
+- [Prof. Me. Guilherme Patriota](https://github.com/guipatriota)
+- [Prof. PhD. Neusa Grando](https://github.com/neusagrando)
+- [Prof. Me. Jadson Almeida](https://github.com/jadinhu)
 
 ---
 
-# 🚀 Como executar o projeto
+## ✨ Funcionalidades
 
-## 1. Configurar variáveis de ambiente
+- Cadastro, consulta, atualização e remoção de usuários;
+- Cadastro, consulta, atualização e remoção de medicamentos;
+- Associação entre usuários e medicamentos;
+- Consulta dos medicamentos vinculados a um usuário;
+- Controle de horário de uso dos medicamentos;
+- Registro de alertas;
+- Registro e confirmação do consumo de medicamentos;
+- Consultas e listagens relacionadas aos usuários, medicamentos e seus vínculos.
+
+---
+
+## 🛠️ Tecnologias
+
+- **Java**
+- **Spring Boot**
+- **Spring Data JPA**
+- **Hibernate**
+- **MySQL**
+- **Docker**
+- **Maven**
+- **Git**
+- **GitHub**
+
+---
+
+## 📁 Estrutura do projeto
+
+```text
+Projeto-Turma-2---MediAlerta/
+├── .devcontainer/
+├── .github/
+├── docker/
+├── docs/   
+├── src/
+├── docker-compose.yml
+├── Dockerfile
+├── pom.xml
+└── README.md
+
+```
+## 🚀 Como executar o projeto
+
+### 1. Clone o repositório
 
 ```bash
-cp .env.example .env
+git clone https://github.com/clearIce-dev/Projeto-Turma-2---MediAlerta.git
+cd Projeto-Turma-2---MediAlerta
+
 ```
-## 2. Subir os containers
+
+### 2. Crie o arquivo .env
+
+Por questões de boas práticas, o arquivo .env não está no repositório.
+
+Na raiz do projeto, crie um arquivo chamado .env com o seguinte conteúdo.
 
 ```bash
-docker compose up --build
+MYSQL_ROOT_PASSWORD=root123
+MYSQL_DATABASE=medalerta
+MYSQL_USER=medalerta_user
+MYSQL_PASSWORD=medalerta_pass
 ```
 
-## 3. Acessos
-
-- Aplicação: http://localhost:8080  
-- Health (se implementado): http://localhost:8080/actuator/health  
-- MySQL: localhost:3306  
-
----
-
-# 🗄️ Banco de Dados
-
-O banco MySQL é inicializado automaticamente através de scripts em:
-
-docker/mysql/init/
-
-⚠️ Importante:
-
-- Scripts `.sql` são executados apenas na primeira inicialização
-- Para reinicializar o banco:
+### 3. Inicie a aplicação
 
 ```bash
-docker compose down -v  
-docker compose up --build  
+docker compose up -d
+docker compose attach app
 ```
----
 
-# ▶️ Rodar o Projeto Java 
+## 🛑 Parando o projeto
 
-Execute esse comando no CMD/Terminal:
 ```bash
-mvn spring-boot:run -Dspring-boot.run.profiles=dev
+docker compose down
 ```
----
-
-# 🧪 GitHub Actions (CI)
-
-O projeto inclui um pipeline de CI que:
-
-- Sobe um MySQL temporário
-- Executa testes automatizados
-- Gera a imagem Docker de produção
-
----
-
-# 🔐 Segurança (base)
-
-A estrutura já considera boas práticas iniciais:
-
-- Uso de variáveis de ambiente para credenciais
-- Separação entre configuração e código
-- Preparação para autenticação
-- Proteção contra SQL Injection (uso de ORM nas próximas etapas)
-
----
-
-# ⚠️ Observações importantes para trabalhos fora deste BOOTCAMP
-
-- Este projeto representa uma **infraestrutura de desenvolvimento**
-- Em produção real:
-  - o banco não deve rodar em container local
-  - credenciais devem ser armazenadas em cofres seguros
-  - devem existir mecanismos de backup e redundância
-
----
-
-# 🎯 Objetivo do Bootcamp
-
-Construir um sistema completo a partir de uma base profissional, abordando:
-
-- Arquitetura de software
-- Infraestrutura
-- Segurança
-- Banco de dados
-- Desenvolvimento backend
